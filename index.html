@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoom img</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main>
+        <section class="container">
+
+            <div class="img">
+                <img src="assets/img/1.jpg" class="img1" />
+                <img src="assets/img/2.webp" class="img2" />
+                <img src="assets/img/3.jpg" class="img3" />
+                <img src="assets/img/4.jpg" class="img4" />
+            </div>
+
+            <div class="img2">
+                <img src="assets/img/1.jpg" id="main-img" />
+            </div>
+
+            <div class="text">
+                <h2>Tony Hunfinger T-Shirt New York</h2>
+
+                <div class="price">
+                    <p>$800.00</p>
+                    <a>Free shopping</a>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="div1">
+                    <p>SIZE</p>
+                    <div class="sizes">
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                        <button class="size-btn">XXL</button>
+                    </div>
+                </div>
+
+                <div class="div2">
+                    <p>COLOR</p>
+                    <div class="colors">
+                        <div class="circle red"></div>
+                        <div class="circle blue"></div>
+                        <div class="circle orange"></div>
+                        <a class="size-guide">size guide</a>
+                    </div>
+                </div>
+
+                <div class="div3">
+                    <button>Add To Cart</button>
+                    <div class="control">
+                        <button class="left" id="decrease">-</button>
+                        <input type="text" id="qty" value="1" readonly />
+                        <button class="right" id="increase">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
